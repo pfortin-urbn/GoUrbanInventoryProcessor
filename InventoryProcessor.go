@@ -15,7 +15,6 @@ import (
 	"io"
 	"io/ioutil"
 	"strconv"
-	"fmt"
 )
 
 type Configuration struct {
@@ -110,10 +109,10 @@ func init() {
 	// Load Config File
 	file, e := ioutil.ReadFile("./config.json")
 	if e != nil {
-		fmt.Printf("File error: %v\n", e)
+		log.Printf("File error: %v\n", e)
 		os.Exit(1)
 	}
-	fmt.Printf("%s\n", string(file))
+	log.Printf("%s\n", string(file))
 
 	var config Configuration
 	json.Unmarshal(file, &config)
