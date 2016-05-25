@@ -44,7 +44,7 @@ Amazon:
 	* Only used for ElasticMQ - "http://localhost:9324"
 * **Amazon.AccountNumber (Remenber the leading and trailing '/')**
 	* ElasticMQ - "/queue/"
-	* Amazon - "/98347539586/"
+	* Amazon - "/98XXXXXXX86/"
 * **Amazon.Region**
 	* always set to "us-east-1" for now (even with ElasticMQ)
 * **Amazon.QueueUrl**
