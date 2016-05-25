@@ -1,7 +1,7 @@
 {
   "amazon": {
     "endpoint": "http://localhost:9324",
-    "accountNumber": "/478989820108/",
+    "accountNumber": "/47XXXXXXX108/",
     "region": "us-east-1",
     "queueUrl": "http://localhost:9324/queue/",
     "inventoryPoolsQueueName": "inventory_pools",
